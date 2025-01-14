@@ -7,7 +7,6 @@
 import sys
 print(sys.path)
 
-
 import streamlit as st
 from scripts.pipeline import retrieve_generate_pipeline
 

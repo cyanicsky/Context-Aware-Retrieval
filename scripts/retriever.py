@@ -11,3 +11,4 @@ class Retriever:
         similarities = cosine_similarity(query_vector, self.doc_vectors).flatten()
         top_indices = similarities.argsort()[-top_k:][::-1]
         return top_indices
+    
